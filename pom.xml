@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.eirslett</groupId>
-    <artifactId>frontend-plugins</artifactId>
+    <groupId>com.github.nag-abhishek</groupId>
+    <artifactId>Nag-abhishek</artifactId>
     <version>1.10.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -20,7 +20,7 @@
         run Grunt tasks, and/or run Karma tests.
     </description>
 
-    <url>https://github.com/eirslett/frontend-maven-plugin</url>
+    <url>https://github.com/nag-abhishek/NodeJS</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -30,17 +30,17 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/eirslett/frontend-maven-plugin</url>
-        <connection>scm:git:https://github.com/eirslett/frontend-maven-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:eirslett/frontend-maven-plugin.git</developerConnection>
+        <url>https://github.com/nag-abhishek/NodeJS</url>
+        <connection>scm:git:https://github.com/nag-abhishek/NodeJS.git</connection>
+        <developerConnection>scm:git:git@github.com:nag-abhishek/NodeJS.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
     <developers>
         <developer>
-            <id>eirslett</id>
-            <name>Eirik Sletteberg</name>
-            <email>eiriksletteberg@gmail.com</email>
+            <id>abc</id>
+            <name>Abhishek Chadha</name>
+            <email>abhishek.chadha@nagarro.com</email>
         </developer>
     </developers>
 
