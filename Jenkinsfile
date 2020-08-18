@@ -3,24 +3,18 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Zulaikha from edureka'
+                    sh 'npm install'
                  }
                  }
          
          stage('Two') {
                  steps {
-                    input('Do you want to proceed?')
+                    sh 'node General/main.js'
                  }
                  }
                  stage('Three') {
-                 when {
-                       not {
-                            branch "master"
-                       }
-                 }
-                 steps {
-                       echo "Hello"
-                 }
+                echo 'stage 4'
+                
                  }
          }
 }
