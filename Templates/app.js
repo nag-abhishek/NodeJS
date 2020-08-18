@@ -29,6 +29,6 @@ app.get('/profile/:name' ,(req, res) => {
 });
 
 
-app.listen(3000, () => {
+app.listen(3002, () => {
     console.log('app now listening for requests on port 3000');
 });
