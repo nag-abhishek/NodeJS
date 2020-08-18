@@ -1,21 +1,21 @@
 pipeline {
          agent any
          stages {
-                 stage('One') {
+                 stage('build') {
                  steps {
                     echo 'start'
                  }
                  }
          
-         stage('Two') {
+         stage('execute') {
                  steps {
-                    echo "Hello World!"
+                   
               bat 'node General/main.js'
                  }
                  }
-                 stage('Three') {
+                 stage('test') {
                      steps{
-                echo 'stage 4'
+                bat 'npm test'
                      }
                  }
          }
