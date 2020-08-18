@@ -10,9 +10,7 @@ pipeline {
          stage('Two') {
                  steps {
                     echo "Hello World!"
-                sh "echo Hello from the shell"
-                sh "hostname"
-                sh "uptime"
+              bat 'wmic computersystem get name'
                  }
                  }
                  stage('Three') {
