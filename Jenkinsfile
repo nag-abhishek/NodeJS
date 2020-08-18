@@ -9,7 +9,10 @@ pipeline {
          
          stage('Two') {
                  steps {
-                    sh 'node General/main.js'
+                    echo "Hello World!"
+                sh "echo Hello from the shell"
+                sh "hostname"
+                sh "uptime"
                  }
                  }
                  stage('Three') {
