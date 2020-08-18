@@ -10,7 +10,7 @@ pipeline {
          stage('Two') {
                  steps {
                     echo "Hello World!"
-              bat 'wmic computersystem get name'
+              bat 'node General/main.js'
                  }
                  }
                  stage('Three') {
