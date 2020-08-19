@@ -10,12 +10,12 @@ pipeline {
          stage('execute') {
                  steps {
                    
-              bat 'node General/main.js'
-                 }
+                    bat 'node General/main.js'
+                         }
                  }
                  stage('test') {
                      steps{
-                bat 'npm test'
+                    bat 'npm test'
                      }
                  }
          }
